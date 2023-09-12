@@ -8,10 +8,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./index.js",
+    "start": "npm run registry && nodemon ./index.js",
     "registry" : "node ./register.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "angelator312",
+  "license": "GPLv3",
   "description": ""
 }
