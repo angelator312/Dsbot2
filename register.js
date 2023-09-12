@@ -1,3 +1,4 @@
+require("dotenv").config();
 const { REST, Routes } = require("discord.js");
 const { SlashCommandBuilder } = require("discord.js");
 const information = JSON.parse(process.env.INFO);
